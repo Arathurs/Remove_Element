@@ -6,6 +6,11 @@ Do not allocate extra space for another array, you must do this by **modifying t
 
 The order of elements can be changed. It doesn't matter what you leave beyond the new length.
 
+#### Solutions
+
+This solution uses a reverse iterative approach, beating 99% of all previous Leetcode submissions.
+
+
 #### Clarification:
 Confused why the returned value is an integer but your answer is an array?
 
@@ -22,10 +27,6 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 ```
-
-#### Solutions
-
-This solution uses an reverse iterative approach, beating 99% of all previous Leetcode submissions.
 
 ##### Example 1:
 ```
